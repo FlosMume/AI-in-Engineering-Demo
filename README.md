@@ -1,10 +1,10 @@
-# AI in Engineering – TLNT Course (Instructor Version)
+# AI in Engineering – a demo version 
 
-This repository contains materials for the **"AI in Engineering"** course, prepared by **Dr. Chengliang (Samuel) Huang, Ph.D., P.Eng.**
+This repository contains materials for the **"AI in Engineering"** course
 
 ## Repository Structure
 
-- `syllabus/` – TLNT outline and syllabus summary.
+- `syllabus/` – outline and syllabus summary.
 - `slides/` – One folder per module (01–09) for slide decks.
 - `labs/` – Notebooks/scripts and instructions for hands-on labs.
 - `datasets/` – Placeholder and instructions for downloading external datasets.
@@ -18,4 +18,3 @@ A recommended Conda environment is defined in `environment.yml`:
 ```bash
 conda env create -f environment.yml
 conda activate ai-eng
-
