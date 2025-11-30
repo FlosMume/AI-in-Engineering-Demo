@@ -1,0 +1,26 @@
+
+---
+
+### `environment.yml`
+
+Create `environment.yml`:
+
+```yaml
+name: ai-eng
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+      - xgboost
+      - lightgbm
+      - opencv-python
+
